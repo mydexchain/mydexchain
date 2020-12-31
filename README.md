@@ -118,7 +118,9 @@ You can run MyDexChain Node on
 ### How Can I Update to the Latest MyDexChain Version?
 Run the command on Current DockerHost:
 
-`docker kill mydexchain && docker pull mydexchain/mydexchain && docker run -d --rm -p 2020:2020 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest`
+```
+docker kill mydexchain && docker pull mydexchain/mydexchain && docker run -d --rm -p 2020:2020 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+```
 
 
 ### Common Problems
