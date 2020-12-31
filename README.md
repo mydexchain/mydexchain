@@ -91,6 +91,11 @@ docker attach mydexchain
 ```
 - `password: Dexchain Address password “Please Don’t Forget it”`
 ```
+"http://{DockerHostIP}:2020/getTransactions/{address}&{limit}”
+```
+- `address: Dexchain Address`
+- `limit: number of records`
+```
 "http://{DockerHostIP}:2020/sendTransaction/{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
 ```
 - `sender : Sender Dexchain Address`
