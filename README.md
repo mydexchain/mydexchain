@@ -115,6 +115,12 @@ You can run MyDexChain Node on
 - `Google Cloud`
 - `Your Own Server/Desktop`
 
+### How Can I Update to the Latest MyDexChain Version?
+Run the command on Current DockerHost:
+
+`docker kill mydexchain && docker pull mydexchain/mydexchain && docker run -d --rm -p 2020:2020 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest`
+
+
 ### Common Problems
 These options are settings that change shell behavior. The following table is a list of options that might be useful to you:
 
