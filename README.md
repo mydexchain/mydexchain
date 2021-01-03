@@ -156,6 +156,9 @@ MyDexCahin maps blocks inside PostgreSQL and it has been addressed inside docker
 |                    |               |            |
 |                    |               |    24.60   |
 
+
+25000 myDexChain Transaction = (1000 x 0.003) + (9000 x 0.0003) + (15000 x 0.00003) = 6.150 Fee 
+
 #### Linux & MacOs
 
 ##### 1. Stop `MyDexChain` Node Docker Container (For Data Consistency):
