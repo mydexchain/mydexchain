@@ -289,6 +289,13 @@ Mount disk is located under:
 
 No problem. Reach out to us by [opening an issue](https://github.com/mydexchain/mydexchain/issues/new)
 
+### DRC (Dexchain Request Contract) Types
+- `DRC-8 (Main Contract)`
+- `DRC-16 (Token)` 
+- `DRC-32 (Survey, Advertisement, Announcement)`
+- `DRC-64 (Internet of Things)`
+- `DRC-128 (Artificial Intelligent, Big Data)`
+
 ## Roadmap
 
 - We are hardly working on new features:
