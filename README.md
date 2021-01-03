@@ -108,6 +108,8 @@ docker attach mydexchain
 
 ## FAQ
 
+### How Can I Calc Fee
+
 ### Where Can I Run MyDexChain Node?
 You can run MyDexChain Node on
 - `Amazon Web Services`
@@ -135,6 +137,23 @@ These options are settings that change shell behavior. The following table is a 
 ### How to Backup the MyDexChain Node?
 
 MyDexCahin maps blocks inside PostgreSQL and it has been addressed inside dockerfile. All the data is saved inside **`/var/lib/docker/volumes/mydexchain`** and make sure that you **backup** the folder.
+
+
+### Sample Fee Calculation
+
+
+| Transaction Amount | Fee %         | Fee Amount
+| :----------------: | :------------ | 
+|               1000 |         0.003 |     3.00
+|             100000 |        0.0003 |     2.70
+|            1000000 |       0.00003 |     2.70
+|           10000000 |      0.000003 |     2.70
+|          100000000 |     0.0000003 |     2.70
+|         1000000000 |    0.00000003 |     2.70
+|        10000000000 |   0.000000003 |     2.70
+|       100000000000 |  0.0000000003 |     2.70
+--------------------------------------------------
+|                    |               |    21.90 
 
 #### Linux & MacOs
 
