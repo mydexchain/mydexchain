@@ -134,11 +134,6 @@ These options are settings that change shell behavior. The following table is a 
 | Block Sync is not working  | Check your internet connectivity. |
 
 
-### How to Backup the MyDexChain Node?
-
-MyDexCahin maps blocks inside PostgreSQL and it has been addressed inside dockerfile. All the data is saved inside **`/var/lib/docker/volumes/mydexchain`** and make sure that you **backup** the folder.
-
-
 ### Sample Fee Calculation
 
 
@@ -155,6 +150,12 @@ MyDexCahin maps blocks inside PostgreSQL and it has been addressed inside docker
 |       100000000000 | 0.00000000003 |    +2.70   |
 |                    |               |            |
 |                    |               |    24.60   |
+
+
+
+### How to Backup the MyDexChain Node?
+
+MyDexCahin maps blocks inside PostgreSQL and it has been addressed inside dockerfile. All the data is saved inside **`/var/lib/docker/volumes/mydexchain`** and make sure that you **backup** the folder.
 
 
 25000 myDexChain Transaction = (1000 x 0.003) + (9000 x 0.0003) + (15000 x 0.00003) = 6.150 Fee 
