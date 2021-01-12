@@ -28,15 +28,15 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 - Fixed PostgreSQL PID Lock Problem
 - Fixed Block Logs 
 
-## MyDexChain Node Requirements
+## :wrench: System Requirements
 
 - MyDexChain Node Minimum Requirements: **`2 Core`** of CPU **`4GB`** of Memory and **`100GB`** of HDD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `5mbit` of `Internet Connection` with Port `2020` Egress Allowed
 
-## Pre-Installation Steps
+## :package: Pre-Installation Steps
 
-MyDexChain is fully docker compatible and please follow [Windows](https://docs.docker.com/docker-for-windows/install/), [Centos](https://docs.docker.com/engine/install/centos/), [Ubuntu](https://docs.docker.com/engine/install/ubuntu/), [Amazon Linux](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html), [MAC OS](https://docs.docker.com/docker-for-mac/install/) installation steps before running MyDexChain Node. After docker installation open a command line || terminal and run command to check the docker version.
+:warning: MyDexChain is fully docker compatible and please follow [Windows](https://docs.docker.com/docker-for-windows/install/), [Centos](https://docs.docker.com/engine/install/centos/), [Ubuntu](https://docs.docker.com/engine/install/ubuntu/), [Amazon Linux](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html), [MAC OS](https://docs.docker.com/docker-for-mac/install/) installation steps before running MyDexChain Node. After docker installation open a command line || terminal and run command to check the docker version.
 
 ```
 docker -v
@@ -45,7 +45,7 @@ docker -v
 > **Output**: Docker version 20.10.0, build 7287ab3
 
 
-## Usage
+## :computer: Usage
 
 ##### 1. Run MyDexChain:
 
@@ -111,9 +111,36 @@ docker attach mydexchain
 - `contract: DexChain Contract Address (if null please set “mydexchain”)`
 - `description: Statements of Transaction (if null please set “null”)`
 
-## FAQ
+## :books: FAQ
 
 ### How Can I Calc Fee
+Sample Fee Calculation
+
+
+| Transaction Amount | Fee %         | Fee Amount |
+| :----------------: | :-----------: |:---------: |
+|               1000 |         0.003 |     3.00   |
+|              10000 |        0.0003 |    +2.70   |
+|             100000 |       0.00003 |    +2.70   |
+|            1000000 |      0.000003 |    +2.70   |
+|           10000000 |     0.0000003 |    +2.70   |
+|          100000000 |    0.00000003 |    +2.70   |
+|         1000000000 |   0.000000003 |    +2.70   |
+|        10000000000 |  0.0000000003 |    +2.70   |
+|       100000000000 | 0.00000000003 |    +2.70   |
+|                    |               |            |
+|                    |               |    24.60   |
+
+
+25000 myDexChain Transaction = (1000 x 0.003) + (9000 x 0.0003) + (15000 x 0.00003) = 6.150 Fee
+
+
+### What are the DRC (Dexchain Request Contract) Types
+- `DRC-8 (Main Contract)`
+- `DRC-16 (Token)` 
+- `DRC-32 (Survey, Advertisement, Announcement)`
+- `DRC-64 (Internet of Things)`
+- `DRC-128 (Artificial Intelligent, Big Data)`
 
 ### Where Can I Run MyDexChain Node?
 You can run MyDexChain Node on
@@ -138,26 +165,6 @@ These options are settings that change shell behavior. The following table is a 
 | Cannot connect to the Docker daemon. Is the docker daemon running on this host?  | Check your docker service is up and running.|
 | Block Sync is not working  | Check your internet connectivity. |
 
-
-### Sample Fee Calculation
-
-
-| Transaction Amount | Fee %         | Fee Amount |
-| :----------------: | :-----------: |:---------: |
-|               1000 |         0.003 |     3.00   |
-|              10000 |        0.0003 |    +2.70   |
-|             100000 |       0.00003 |    +2.70   |
-|            1000000 |      0.000003 |    +2.70   |
-|           10000000 |     0.0000003 |    +2.70   |
-|          100000000 |    0.00000003 |    +2.70   |
-|         1000000000 |   0.000000003 |    +2.70   |
-|        10000000000 |  0.0000000003 |    +2.70   |
-|       100000000000 | 0.00000000003 |    +2.70   |
-|                    |               |            |
-|                    |               |    24.60   |
-
-
-25000 myDexChain Transaction = (1000 x 0.003) + (9000 x 0.0003) + (15000 x 0.00003) = 6.150 Fee 
 
 ### How to Backup the MyDexChain Node?
 
@@ -216,7 +223,7 @@ docker attach mydexchain
 
 
 ### How to Migrate the MyDexChain Node to Another Docker Host?
-Before migrating your node be sure that docker is `installed on target`.
+:warning: Before migrating your node be sure that docker is `installed on target`.
 
 #### Linux & MacOs
 
@@ -294,12 +301,6 @@ Mount disk is located under:
 
 No problem. Reach out to us by [opening an issue](https://github.com/mydexchain/mydexchain/issues/new)
 
-### DRC (Dexchain Request Contract) Types
-- `DRC-8 (Main Contract)`
-- `DRC-16 (Token)` 
-- `DRC-32 (Survey, Advertisement, Announcement)`
-- `DRC-64 (Internet of Things)`
-- `DRC-128 (Artificial Intelligent, Big Data)`
 
 ## Roadmap
 
