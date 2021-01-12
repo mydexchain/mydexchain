@@ -77,7 +77,7 @@ docker attach mydexchain
 ```
 "http://{DockerHostIP}:2020/setDextracker/{dexTrackerNumber}”
 ```
-- `dexTrackerNumber : DexChain Tracker Number`
+- `dexTrackerNumber : DexChain Tracker Number` 
 ```
 “http://{DockerHostIP}:2020/isWallet/{address}”
 ```
@@ -86,6 +86,11 @@ docker attach mydexchain
 "http://{DockerHostIP}:2020/balanceWallet/{address}"
 ```
 - `address: Dexchain Address`
+```
+"http://{DockerHostIP}:2020/balanceToken/{address}&{contract}"
+```
+- `address: Dexchain Address`
+- `contract: DexChain Contract Address (if null please set “mydexchain”)`
 ```
 “http://{DockerHostIP}:2020/createWallet/{password}”
 ```
