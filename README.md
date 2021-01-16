@@ -145,6 +145,7 @@ Sample Fee Calculation
 
 
 ### What are the DRC (Dexchain Request Contract) Types
+- `DRC-4 (Academy Contract)`
 - `DRC-8 (Main Contract)`
 - `DRC-16 (Token)` 
 - `DRC-32 (Survey, Advertisement, Announcement)`
