@@ -11,7 +11,7 @@ MyDexChain is the newest technology for `blockchain` and can be used as a paymen
 
 - [`MyDexChain`](https://mydexchain.io) : The official web page of MyDexChain
 - [`MyDexPay`](https://mydexpay.io): MyDexChain Masterlife Web Page
-- [`Academy`](https://academy.mydexchain.io): MyDexChain Trainings and Education Centre
+- [`Academies`](https://mydexchain.io/#/dashboards/academy): MyDexChain Trainings and Education Centers
 
 This guide is used by dozens of product teams at MyDexChain. Have a question or comment? [Open an issue!](https://github.com/mydexchain/mydexchain/issues/new)
 
