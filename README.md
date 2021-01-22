@@ -32,7 +32,7 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 
 - MyDexChain Node Minimum Requirements: **`2 Core`** of CPU **`4GB`** of Memory and **`100GB`** of HDD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
-- At Least `5mbit` of `Internet Connection` with Port `2020` Egress Allowed
+- At Least `5mbit` of `Internet Connection` with Port `2020` Ingress from **Your IP** Allowed
 
 ## :package: Pre-Installation Steps
 
