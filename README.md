@@ -100,6 +100,10 @@ docker attach mydexchain
 ```
 - `password: Dexchain Address password “Please Don’t Forget it”`
 ```
+"http://{DockerHostIP}:2020/getLastBlock/"
+```
+- `Last Block`
+```
 "http://{DockerHostIP}:2020/getTransactions/{address}&{limit}”
 ```
 - `address: Dexchain Address`
@@ -107,7 +111,7 @@ docker attach mydexchain
 ```
 "http://{DockerHostIP}:2020/getTransactionByBlock/{blockid}&{limit}”
 ```
-- `blockid: Block ID`
+- `blockid: Block ID (hex)`
 - `limit: number of records`
 ```
 "http://{DockerHostIP}:2020/sendTransaction/{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
