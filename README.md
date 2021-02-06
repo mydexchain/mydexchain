@@ -104,15 +104,17 @@ docker attach mydexchain
 ```
 - `Last Block`
 ```
-"http://{DockerHostIP}:2020/getTransactions/{address}&{limit}”
+"http://{DockerHostIP}:2020/getTransactions/{address}&{limit}&{orderby}”
 ```
 - `address: Dexchain Address`
 - `limit: number of records`
+- `orderby: ASC or DESC `
 ```
-"http://{DockerHostIP}:2020/getTransactionByBlock/{blockid}&{limit}”
+"http://{DockerHostIP}:2020/getTransactionByBlock/{blockid}&{limit}&{orderby}”
 ```
 - `blockid: Block ID (hex)`
 - `limit: number of records`
+- `orderby: ASC or DESC `
 ```
 "http://{DockerHostIP}:2020/sendTransaction/{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
 ```
