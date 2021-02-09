@@ -104,6 +104,10 @@ docker attach mydexchain
 ```
 - `Last Block`
 ```
+"http://{DockerHostIP}:2020/getTransactionByDexHash/{dexhash}"
+```
+- `dexhash: Dexchain Transaction Hash`
+```
 "http://{DockerHostIP}:2020/getTransactions/{address}&{limit}&{orderby}”
 ```
 - `address: Dexchain Address`
