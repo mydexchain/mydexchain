@@ -120,6 +120,12 @@ docker attach mydexchain
 - `limit: number of records`
 - `orderby: ASC or DESC `
 ```
+"http://{DockerHostIP}:2020/getmyTransactionByBlock/{blockid}&{limit}&{orderby}”
+```
+- `blockid: Block ID (hex)`
+- `limit: number of records`
+- `orderby: ASC or DESC `
+```
 "http://{DockerHostIP}:2020/sendTransaction/{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
 ```
 - `sender : Sender Dexchain Address`
