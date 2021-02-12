@@ -120,6 +120,13 @@ docker attach mydexchain
 - `limit: number of records`
 - `orderby: ASC or DESC `
 ```
+"http://{DockerHostIP}:2020/getTransactionByBlockOffset/{blockid}&{limit}&{orderby}&{offset}”
+```
+- `blockid: Block ID (hex)`
+- `limit: number of records`
+- `orderby: ASC or DESC `
+- `offset: skip that many rows before beginning to return rows `
+```
 "http://{DockerHostIP}:2020/getmyTransactionByBlock/{blockid}&{limit}&{orderby}”
 ```
 - `blockid: Block ID (hex)`
