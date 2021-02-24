@@ -79,6 +79,11 @@ docker attach mydexchain
 ```
 - `dexTrackerNumber : DexChain Tracker Number` 
 ```
+"http://{DockerHostIP}:2020/setDexClouder/{address}&{contract}”
+```
+- `address : DexChain Address` 
+- `contract : DexStore Contract Address` 
+```
 "http://{DockerHostIP}:2020/setNickname/{nickName}”
 ```
 - `nickName : DexChain Tracker Nickname` 
