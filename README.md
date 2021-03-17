@@ -79,6 +79,10 @@ docker attach mydexchain
 ```
 - `dexTrackerNumber : DexChain Tracker Number` 
 ```
+"http://{DockerHostIP}:2020/setAcademy/{academyContract}”
+```
+- `academyContract : DexChain Academy Contract` 
+```
 "http://{DockerHostIP}:2020/setActivist/{address}&{dexhash}”
 ```
 - `address : DexChain Address` 
