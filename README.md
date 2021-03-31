@@ -22,6 +22,9 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 - [FAQ](#faq)
 - [Roadmap](#roadmap)
 
+## MyDexChain Consensus
+![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
+
 ## Public Release Notes
 ##### 2.2.1
 - Added Master Tracked (Now DeFi Supported)
