@@ -15,11 +15,11 @@ MyDexChain is the newest technology for `blockchain` and can be used as a paymen
 
 This guide is used by dozens of product teams at MyDexChain. Have a question or comment? [Open an issue!](https://github.com/mydexchain/mydexchain/issues/new)
 
-- [Release Notes](#release-notes)
-- [MyDexChain Node Requirements](#mydexchain-node-requirements)
-- [Pre-Installation Steps](#pre-installation-steps)
-- [Usage](#usage)
-- [FAQ](#faq)
+- [Release Notes](#public-release-notes)
+- [MyDexChain Node Requirements](#wrench-system-requirements)
+- [Pre-Installation Steps](#package-pre-installation-steps)
+- [Usage](#computer-usage)
+- [FAQ](#books-faq)
 - [Roadmap](#roadmap)
 
 ## MyDexChain Consensus
