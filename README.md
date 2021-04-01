@@ -199,6 +199,17 @@ Sample Fee Calculation
 
 25000 myDexChain Transaction = (1000 x 0.003) + (9000 x 0.0003) + (15000 x 0.00003) = 6.150 Fee
 
+### Standard fee distribution
+- %0,1 DexTracker Bonus
+- %0,1 DexClouder Bonus
+- %0,1 DexConfirmer Bonus
+### Commercial fee distribution
+- %0,1 DexClouder ProActivist Bonus
+- %0,1 DexClouder Academy ProActivist Bonus
+- %0,1 DexClouder Activist Bonus
+- %0,1 DexClouder Academy Activist Bonus
+- %0,1 DexClouder Beauty Bonus
+
 
 ### What are the DRC (Dexchain Request Contract) Types
 - `DRC-4 (Academy Contract)`
