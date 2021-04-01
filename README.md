@@ -80,10 +80,11 @@ docker attach mydexchain
 
 ##### 3. Node RestAPI commands :
 ```
-"http://{DockerHostIP}:2020/setMasterTracker/{pool}&{hostname}”
+"http://{DockerHostIP}:2020/setMasterTracker/{pool}&{hostname}&{percent}”
 ```
 - `pool : MasterTracker Pool Name` 
 - `hostname : MasterTracker Host Name`
+- `percent : MasterTracker Pool Cost Percent %`
 ```
 "http://{DockerHostIP}:2020/setJoinPool/{poolapikey}”
 ```
