@@ -176,6 +176,22 @@ docker attach mydexchain
 - `fee: Fee of Transaction (IN / OUT)` 
 - `contract: DexChain Contract Address (if null please set “mydexchain”)`
 - `description: Statements of Transaction (if null please set “null”)`
+```
+"http://{DockerHostIP}:2020/getSendToken/”
+```
+- `Token: Unique Token GUID`
+```
+"http://{DockerHostIP}:2020/sendTransactionV2/{sendtoken}&{sender}&{password}&{receiver}&{amount}&{fee}&{contract}&{description}"
+```
+- `sendtoken : Unique Token GUID`
+- `sender : Sender Dexchain Address`
+- `password: Dexchain Address password`
+- `receiver: Receiver Dexchain Address`
+- `amount: Amount of XMD`
+- `fee: Fee of Transaction (IN / OUT)` 
+- `contract: DexChain Contract Address (if null please set “mydexchain”)`
+- `description: Statements of Transaction (if null please set “null”)`
+
 
 ## :books: FAQ
 
