@@ -245,6 +245,7 @@ You can run MyDexChain Node on
 
 
 ### MasterTracker requirements;
+- `Only vaild after 01/05/2021 purchases`
 - `A minimum value of 100 Dex Trackers must participate in the MasterTracker.`
 - `Each Dexlife must be attached to 1 DexTracker.`
 - `MasterTracker ServiceFee range is (%1-%100)`
