@@ -91,9 +91,10 @@ docker attach mydexchain
 - `poolapikey : MasterTracker PoolApiKey` 
 
 ```
-"http://{DockerHostIP}:2020/setDextracker/{dexTrackerNumber}”
+"http://{DockerHostIP}:2020/setDextracker/{dexTrackerNumber}&{dexhash}”
 ```
 - `dexTrackerNumber : DexChain Tracker Number` 
+- `dexhash: DexLife Transaction Hash`
 ```
 "http://{DockerHostIP}:2020/setAcademy/{academyContract}”
 ```
