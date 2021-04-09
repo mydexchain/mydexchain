@@ -217,7 +217,7 @@ Sample Fee Calculation
 25000 myDexChain Transaction = (1000 x 0.003) + (9000 x 0.0003) + (15000 x 0.00003) = 6.150 Fee
 
 ### Standard fee distribution
-- %0,1 DexTracker Bonus
+- %0,1 MasterTracker Bonus
 - %0,1 DexClouder Bonus
 - %0,1 DexConfirmer Bonus
 ### Commercial fee distribution
@@ -242,6 +242,14 @@ You can run MyDexChain Node on
 - `Azure`
 - `Google Cloud`
 - `Your Own Server/Desktop`
+
+
+### MasterTracker requirements;
+- `A minimum value of 100 Dex Trackers must participate in the MasterTracker.`
+- `Each Dexlife must be attached to 1 DexTracker.`
+- `MasterTracker ServiceFee range is (%1-%100)`
+- `DexTracker revenues will be given hourly.`
+
 
 ### How Can I Update to the Latest MyDexChain Version?
 Run the command on Current DockerHost:
