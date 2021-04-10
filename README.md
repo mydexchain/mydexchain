@@ -27,7 +27,7 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 
 ## Public Release Notes
 ##### 2.2.2
-- Adding DRSProtol (Duplicate Record Security Protocol)
+- Adding DRSProtocol (Duplicate Record Security Protocol)
 - Locks same transaction one minute per node
 
 ##### 2.2.1
