@@ -84,7 +84,7 @@ docker attach mydexchain
 ```
 - `pool : MasterTracker Pool Name` 
 - `hostname : MasterTracker Host Name`
-- `percent : MasterTracker Pool Cost Percent % range (%1-%100)`
+- `percent : MasterTracker Pool Cost Percent % range (%1-%50)`
 ```
 "http://{DockerHostIP}:2020/setJoinPool/{poolapikey}”
 ```
@@ -249,7 +249,7 @@ You can run MyDexChain Node on
 (Only vaild after 01/05/2021 purchases)
 - `A minimum value of 100 Dex Trackers must participate in the MasterTracker.`
 - `Each Dexlife must be attached to 1 DexTracker.`
-- `MasterTracker ServiceFee range is (%1-%100)`
+- `MasterTracker ServiceFee range is (%1-%50)`
 - `DexTracker revenues will be given hourly.`
 
 
