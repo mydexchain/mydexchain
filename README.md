@@ -62,7 +62,7 @@ docker -v
 MyDexChain docker file is stored in dockerhub and ready for use with command: (Please check the version and use as tag rather than latest)
 
 ```
-docker run -d --rm -p 2020:2020 -p 80:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
 
 After docker container **comes up** run the command;
@@ -272,7 +272,7 @@ service docker start
 ```
 docker kill mydexchain 
 docker pull mydexchain/mydexchain
-docker run -d --rm -p 2020:2020 -v -p 80:3030 mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -v -p 2053:3030 mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
 
 
@@ -307,7 +307,7 @@ rsync -avzhHP /var/lib/docker/volumes/mydexchain/ /backup_path/mydexchain/
 ##### 3. Start `MyDexChain` Docker Container on the New Docker Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 80:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
 
 
@@ -330,7 +330,7 @@ docker kill mydexchain
 ##### 3. Start `MyDexChain` Docker Container on the New Docker Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 80:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
 
 
@@ -361,9 +361,8 @@ rsync -avzhHP --rsync-path="sudo rsync" -e "ssh -i key -o StrictHostKeyChecking=
 ##### 3. Start `MyDexChain` Docker Container on the New Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 80:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
-
 
 ##### 4. Follow the Blocks on the New Docker Host :
 
@@ -388,7 +387,7 @@ docker kill mydexchain
 ##### 3. Start `MyDexChain` Docker Container on the New Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 80:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
 
 
