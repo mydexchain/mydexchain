@@ -84,6 +84,11 @@ docker attach mydexchain
 
 ##### 3. Node RestAPI commands :
 ```
+"http://{DockerHostIP}:2020/getTrackerKey/”
+```
+- `trackerkey : TrackerKey for Purchase DexLife` 
+
+```
 "http://{DockerHostIP}:2020/setMasterTracker/{pool}&{hostname}&{percent}”
 ```
 - `pool : MasterTracker Pool Name` 
