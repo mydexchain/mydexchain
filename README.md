@@ -420,7 +420,8 @@ Mount disk is located under:
 ``` 
 %USERPROFILE%\AppData\Local\Docker\wsl\data\ext4.vhdx
 ```
-### How to run test mode 
+### How to run Test Mode 
+Test mode is used for making demo for DexChain Network. **Do not use for production!**
 ```
 docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchaintestnet mydexchain/mydexchain:testnet
 ```
