@@ -26,15 +26,15 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
 
 ## Public Release Notes
-##### 2.2.2
+##### v2.2.2
 - Adding DRSProtocol (Duplicate Record Security Protocol)
 - Locks same transaction one minute per node
 
-##### 2.2.1
+##### v2.2.1
 - Added Master Tracked (Now DeFi Supported)
 - Docker Socket Extention fixed
 
-##### 1.0.1
+##### v1.0.1
 - Fixed PostgreSQL PID Lock Problem
 - Fixed Block Logs 
 
