@@ -278,7 +278,7 @@ service docker start
 ```
 docker kill mydexchain 
 docker pull mydexchain/mydexchain
-docker run -d --rm -p 2020:2020 -v -p 2053:3030 mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest
 ```
 
 
