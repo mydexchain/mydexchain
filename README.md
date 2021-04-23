@@ -26,6 +26,9 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
 
 ## Public Release Notes
+##### v2.2.3
+- DXC Mining
+- Dual Coin Mining (PRX)
 ##### v2.2.2
 - Adding DRSProtocol (Duplicate Record Security Protocol)
 - Locks same transaction one minute per node
@@ -89,6 +92,14 @@ docker attach mydexchain
 
 
 ##### 3. Node RestAPI commands :
+```
+"http://{DockerHostIP}:2020/setStartDXCMiner/”
+```
+
+```
+"http://{DockerHostIP}:2020/setStartPRXMiner/”
+```
+
 ```
 "http://{DockerHostIP}:2020/getTrackerKey/”
 ```
