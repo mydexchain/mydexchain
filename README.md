@@ -51,7 +51,7 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 - MyDexChain Node Minimum Requirements: **`8 Core`** of CPU **`16GB`** of Memory and **`100GB`** of HDD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `20mbit` of `Internet Connection` with Port `2053` Ingress from **Your IP** Allowed
-- `Maximum Pool Member Limit (DexTracker) : 400`
+- **`Maximum Pool Member Limit (DexTracker) : 400`**
 
 ## :package: Pre-Installation Steps
 
