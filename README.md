@@ -26,6 +26,8 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
 
 ## Public Release Notes
+##### v2.2.4
+- "http://{DockerHostIP}:2020/setPoolServiceFee/{percent}” 
 ##### v2.2.3
 - DXC Mining
 - Dual Coin Mining (PRX)
