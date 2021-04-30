@@ -111,6 +111,12 @@ docker attach mydexchain
 - `pool : MasterTracker Pool Name` 
 - `hostname : MasterTracker Host Name`
 - `percent : MasterTracker Pool Cost Percent % range (%1-%50)`
+
+```
+"http://{DockerHostIP}:2020/setPoolServiceFee/{percent}”
+```
+- `percent : MasterTracker Pool Cost Percent % range (%1-%50)`
+
 ```
 "http://{DockerHostIP}:2020/setJoinPool/{poolapikey}”
 ```
