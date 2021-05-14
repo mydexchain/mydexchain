@@ -257,6 +257,7 @@ Sample Fee Calculation
 - %0,1 MasterTracker Bonus
 - %0,1 DexClouder Bonus
 - %0,1 DexConfirmer Bonus
+
 ### Commercial fee distribution
 - %0,1 DexClouder ProActivist Bonus
 - %0,1 DexClouder Academy ProActivist Bonus
@@ -280,6 +281,10 @@ You can run MyDexChain Node on
 - `Google Cloud`
 - `Your Own Server/Desktop`
 
+### What are the transaction status ?
+- `Success` 
+- `Pending` 
+- `Fail`
 
 ### MasterTracker requirements;
 (Only vaild after 01/05/2021 purchases)
