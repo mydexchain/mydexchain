@@ -29,6 +29,7 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ##### v2.2.7
 - IP Restrict and MAC Restrict (1 pc 1 DexTracker) or (1 pc 1 MasterTracker)
 - Mining will start after synchronization is complete 
+- Maximum Pool Member Limit (DexTracker) : 200
 ##### v2.2.6
 - masterTracker optimization
 ##### v2.2.5
@@ -60,7 +61,7 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 - MyDexChain Node Minimum Requirements: **`8 Core`** of CPU **`16GB`** of Memory and **`500GB`** of HDD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `20mbit` of `Internet Connection` with Port `2053` Ingress from **Your IP** Allowed
-- **`Maximum Pool Member Limit (DexTracker) : 400`**
+- **`Maximum Pool Member Limit (DexTracker) : 200`**
 
 ## :package: Pre-Installation Steps
 
