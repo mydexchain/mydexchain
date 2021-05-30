@@ -26,6 +26,11 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
 
 ## Public Release Notes
+##### v2.2.7
+- IP Restrict and MAC Restrict (1 pc 1 DexTracker) or (1 pc 1 MasterTracker)
+- Mining will start after synchronization is complete 
+##### v2.2.6
+- masterTracker optimization
 ##### v2.2.5
 - sendtransaction optimization
 ##### v2.2.4
