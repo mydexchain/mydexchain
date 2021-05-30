@@ -215,7 +215,7 @@ docker attach mydexchain
 - `sender : Sender Dexchain Address`
 - `password: Dexchain Address password`
 - `receiver: Receiver Dexchain Address`
-- `amount: Amount of XMD`
+- `amount: Amount of DXC`
 - `fee: Fee of Transaction (IN / OUT)` 
 - `contract: DexChain Contract Address (if null please set “mydexchain”)`
 - `description: Statements of Transaction (if null please set “null”)`
@@ -230,7 +230,7 @@ docker attach mydexchain
 - `sender : Sender Dexchain Address`
 - `password: Dexchain Address password`
 - `receiver: Receiver Dexchain Address`
-- `amount: Amount of XMD`
+- `amount: Amount of DXC`
 - `fee: Fee of Transaction (IN / OUT)` 
 - `contract: DexChain Contract Address (if null please set “mydexchain”)`
 - `description: Statements of Transaction (if null please set “null”)`
