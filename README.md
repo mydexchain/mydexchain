@@ -26,6 +26,8 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
 
 ## Public Release Notes
+##### v2.2.8
+- getParexKey 
 ##### v2.2.7
 - IP Restrict and MAC Restrict (1 pc 1 DexTracker) or (1 pc 1 MasterTracker)
 - Mining will start after synchronization is complete 
@@ -114,6 +116,11 @@ docker attach mydexchain
 "http://{DockerHostIP}:2020/getTrackerKey/”
 ```
 - `trackerkey : TrackerKey for Purchase DexLife` 
+
+```
+"http://{DockerHostIP}:2020/getParexKey/”
+```
+- `parexkey : ParexKey for Purchase Parex Package` 
 
 ```
 "http://{DockerHostIP}:2020/setMasterTracker/{pool}&{hostname}&{percent}”
