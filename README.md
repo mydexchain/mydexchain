@@ -55,12 +55,12 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 
 ## :wrench: System Requirements
 ### DexTracker
-- MyDexChain Node Minimum Requirements: **`2 Core`** of CPU **`4GB`** of Memory and **`250GB`** of HDD
+- MyDexChain Node Minimum Requirements: **`2 Core`** of CPU **`4GB`** of Memory and **`250GB`** of SSD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `5mbit` of `Internet Connection` with Port `2020` Ingress from **Your IP** Allowed
 
 ### MasterTracker
-- MyDexChain Node Minimum Requirements: **`8 Core`** of CPU **`16GB`** of Memory and **`500GB`** of HDD
+- MyDexChain Node Minimum Requirements: **`8 Core`** of CPU **`16GB`** of Memory and **`500GB`** of SSD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `20mbit` of `Internet Connection` with Port `2053` Ingress from **Your IP** Allowed
 - **`Maximum Pool Member Limit (DexTracker) : 200`**
