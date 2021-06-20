@@ -27,6 +27,8 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 
 ## Public Release Notes
 ##### v2.2.8
+- fast syncing 
+##### v2.2.8
 - getParexKey 
 ##### v2.2.7
 - IP Restrict and MAC Restrict (1 pc 1 DexTracker) or (1 pc 1 MasterTracker)
