@@ -96,7 +96,7 @@ Offline Blocks Link: https://backup.mydexchain.io
 
 Commands to Execute:
 ```
-"wget https://backup.mydexchain.io/data-[date].tar.gz"
+wget https://backup.mydexchain.io/data-[date].tar.gz
 ```
 Stop mydexchain node
 ```
