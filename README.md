@@ -80,6 +80,39 @@ docker -v
 > **Output**: Docker version 20.10.0, build 7287ab3
 
 
+
+### Mydexchain Node Offline Sync (Fastest Way)
+To catchup block syncs we publish blocks in zipped format. You can download block archives and catchup quickly. This way is usefull for clean node deployements and low network bandwith problems. 
+
+Steps: 
+ - Start the node to trigger initial Database Schemas.
+ - Download the archive.
+ - Unzip files to docker volume.
+ - Start the node 
+
+Offline Blocks Link: https://backup.mydexchain.io
+
+Commands to Execute:
+```
+"wget https://backup.mydexchain.io/data-[date].tar.gz"
+```
+Stop mydexchain node
+```
+"docker kill mydexchain"
+```
+Delete old data dir
+```
+"rm -rf /var/lib/docker/volumes/mydexchain/_data/12"
+```
+Untar archive to data dir
+```
+"tar -zxvf data-21-07-07.tar.gz -C /var/lib/docker/volumes/mydexchain/_data/"
+```
+And start the node
+```
+"docker run -d --rm -p 2020:2020 -p 2053:3030 -v mydexchain:/var/lib/postgresql/ --privileged --log-driver=none --name mydexchain mydexchain/mydexchain:latest"
+```
+
 ## :computer: Usage
 
 ##### 1. Run MyDexChain:
@@ -104,8 +137,6 @@ docker ps
 ```
 docker attach mydexchain
 ```
-
-
 
 ##### 3. Node RestAPI commands :
 ```
