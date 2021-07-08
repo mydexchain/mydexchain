@@ -26,6 +26,8 @@ This guide is used by dozens of product teams at MyDexChain. Have a question or 
 ![MyDexChain Consensus](myDexChain_Logos/consensus.jpg?raw=true)
 
 ## Public Release Notes
+##### v2.3.0
+- Mydexchain Node Offline Sync (Fastest Way) https://backup.mydexchain.io
 ##### v2.2.10
 - online status optimized
 ##### v2.2.9
