@@ -84,7 +84,10 @@ docker -v
 
 
 ### Mydexchain Node Offline Sync (Fastest Way)
-To catchup block syncs we publish blocks in zipped format. You can download block archives and catchup quickly. This way is usefull for clean node deployements and low network bandwith problems. 
+To catchup block syncs we publish blocks in zipped format. You can download block archives and catchup quickly. This way is usefull for clean node deployements .
+
+[`Quick sync is only possible on initial setup. Do not use this way for current nodes.`]
+
 
 Steps: 
  - Start the node to trigger initial Database Schemas.
