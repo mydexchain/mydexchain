@@ -113,7 +113,7 @@ rm -rf /var/lib/docker/volumes/mydexchain/_data/12
 ```
 Untar archive to data dir
 ```
-tar -zxvf data-21-07-07.tar.gz -C /var/lib/docker/volumes/mydexchain/_data/
+tar -zxvf data-[date].tar.gz -C /var/lib/docker/volumes/mydexchain/_data/
 ```
 And start the node
 ```
